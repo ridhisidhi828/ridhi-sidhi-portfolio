@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ridhi Sidhi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --peach: #ffccbc;
+      --orange: #ff7043;
+    }
+  </style>
+</head>
+<body class="bg-white text-black font-sans">
+  <header class="p-6 flex justify-between items-center bg-black text-white shadow-md">
+    <h1 class="text-2xl font-bold tracking-wider">Ridhi Sidhi</h1>
+    <nav class="space-x-6 text-peach-400">
+      <a href="index.html" class="hover:text-orange-400">Home</a>
+      <a href="portfolio.html" class="hover:text-orange-400">Portfolio</a>
+      <a href="about.html" class="hover:text-orange-400">About</a>
+      <a href="contact.html" class="hover:text-orange-400">Contact</a>
+    </nav>
+  </header>
+  <main class="px-6 py-16 bg-[var(--peach)] min-h-screen">
+    <h2 class="text-4xl font-bold text-center mb-10">My Work</h2>
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="https://via.placeholder.com/400x300" alt="Project 1" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Project Title</h3>
+          <p class="text-sm text-gray-600">Short description of the design project.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="https://via.placeholder.com/400x300" alt="Project 2" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Project Title</h3>
+          <p class="text-sm text-gray-600">Short description of the design project.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="https://via.placeholder.com/400x300" alt="Project 3" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Project Title</h3>
+          <p class="text-sm text-gray-600">Short description of the design project.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="text-center py-6 mt-12 bg-black text-white text-sm">
+    © 2025 Ridhi Sidhi. All rights reserved.
+  </footer>
+</body>
+</html>
